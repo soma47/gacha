@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0C8FFD01AEA48C10076C15D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C8FFCF1AEA48C10076C15D /* AppDelegate.swift */; };
+		B0C8FFD21AEA48C10076C15D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C8FFD11AEA48C10076C15D /* ViewController.swift */; };
+		B0C8FFD51AEA48C10076C15D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0C8FFD31AEA48C10076C15D /* Main.storyboard */; };
+		B0C8FFD71AEA48C10076C15D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0C8FFD61AEA48C10076C15D /* Images.xcassets */; };
+		B0C8FFDA1AEA48C10076C15D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0C8FFD81AEA48C10076C15D /* LaunchScreen.xib */; };
+		B0C8FFE61AEA48C20076C15D /* GachaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C8FFE51AEA48C20076C15D /* GachaTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0C8FFE01AEA48C20076C15D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0C8FFC21AEA48C10076C15D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0C8FFC91AEA48C10076C15D;
+			remoteInfo = Gacha;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0C8FFCA1AEA48C10076C15D /* Gacha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gacha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0C8FFCE1AEA48C10076C15D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0C8FFCF1AEA48C10076C15D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B0C8FFD11AEA48C10076C15D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B0C8FFD41AEA48C10076C15D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0C8FFD61AEA48C10076C15D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B0C8FFD91AEA48C10076C15D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B0C8FFDF1AEA48C20076C15D /* GachaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GachaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0C8FFE41AEA48C20076C15D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0C8FFE51AEA48C20076C15D /* GachaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GachaTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0C8FFC71AEA48C10076C15D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0C8FFDC1AEA48C20076C15D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0C8FFC11AEA48C10076C15D = {
+			isa = PBXGroup;
+			children = (
+				B0C8FFCC1AEA48C10076C15D /* Gacha */,
+				B0C8FFE21AEA48C20076C15D /* GachaTests */,
+				B0C8FFCB1AEA48C10076C15D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0C8FFCB1AEA48C10076C15D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0C8FFCA1AEA48C10076C15D /* Gacha.app */,
+				B0C8FFDF1AEA48C20076C15D /* GachaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0C8FFCC1AEA48C10076C15D /* Gacha */ = {
+			isa = PBXGroup;
+			children = (
+				B0C8FFCF1AEA48C10076C15D /* AppDelegate.swift */,
+				B0C8FFD11AEA48C10076C15D /* ViewController.swift */,
+				B0C8FFD31AEA48C10076C15D /* Main.storyboard */,
+				B0C8FFD61AEA48C10076C15D /* Images.xcassets */,
+				B0C8FFD81AEA48C10076C15D /* LaunchScreen.xib */,
+				B0C8FFCD1AEA48C10076C15D /* Supporting Files */,
+			);
+			path = Gacha;
+			sourceTree = "<group>";
+		};
+		B0C8FFCD1AEA48C10076C15D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0C8FFCE1AEA48C10076C15D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0C8FFE21AEA48C20076C15D /* GachaTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0C8FFE51AEA48C20076C15D /* GachaTests.swift */,
+				B0C8FFE31AEA48C20076C15D /* Supporting Files */,
+			);
+			path = GachaTests;
+			sourceTree = "<group>";
+		};
+		B0C8FFE31AEA48C20076C15D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0C8FFE41AEA48C20076C15D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0C8FFC91AEA48C10076C15D /* Gacha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0C8FFE91AEA48C20076C15D /* Build configuration list for PBXNativeTarget "Gacha" */;
+			buildPhases = (
+				B0C8FFC61AEA48C10076C15D /* Sources */,
+				B0C8FFC71AEA48C10076C15D /* Frameworks */,
+				B0C8FFC81AEA48C10076C15D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gacha;
+			productName = Gacha;
+			productReference = B0C8FFCA1AEA48C10076C15D /* Gacha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0C8FFDE1AEA48C20076C15D /* GachaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0C8FFEC1AEA48C20076C15D /* Build configuration list for PBXNativeTarget "GachaTests" */;
+			buildPhases = (
+				B0C8FFDB1AEA48C20076C15D /* Sources */,
+				B0C8FFDC1AEA48C20076C15D /* Frameworks */,
+				B0C8FFDD1AEA48C20076C15D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0C8FFE11AEA48C20076C15D /* PBXTargetDependency */,
+			);
+			name = GachaTests;
+			productName = GachaTests;
+			productReference = B0C8FFDF1AEA48C20076C15D /* GachaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0C8FFC21AEA48C10076C15D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Soma;
+				TargetAttributes = {
+					B0C8FFC91AEA48C10076C15D = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					B0C8FFDE1AEA48C20076C15D = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = B0C8FFC91AEA48C10076C15D;
+					};
+				};
+			};
+			buildConfigurationList = B0C8FFC51AEA48C10076C15D /* Build configuration list for PBXProject "Gacha" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0C8FFC11AEA48C10076C15D;
+			productRefGroup = B0C8FFCB1AEA48C10076C15D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0C8FFC91AEA48C10076C15D /* Gacha */,
+				B0C8FFDE1AEA48C20076C15D /* GachaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0C8FFC81AEA48C10076C15D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C8FFD51AEA48C10076C15D /* Main.storyboard in Resources */,
+				B0C8FFDA1AEA48C10076C15D /* LaunchScreen.xib in Resources */,
+				B0C8FFD71AEA48C10076C15D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0C8FFDD1AEA48C20076C15D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0C8FFC61AEA48C10076C15D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C8FFD21AEA48C10076C15D /* ViewController.swift in Sources */,
+				B0C8FFD01AEA48C10076C15D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0C8FFDB1AEA48C20076C15D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C8FFE61AEA48C20076C15D /* GachaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0C8FFE11AEA48C20076C15D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0C8FFC91AEA48C10076C15D /* Gacha */;
+			targetProxy = B0C8FFE01AEA48C20076C15D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0C8FFD31AEA48C10076C15D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0C8FFD41AEA48C10076C15D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0C8FFD81AEA48C10076C15D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0C8FFD91AEA48C10076C15D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0C8FFE71AEA48C20076C15D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0C8FFE81AEA48C20076C15D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0C8FFEA1AEA48C20076C15D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gacha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B0C8FFEB1AEA48C20076C15D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gacha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B0C8FFED1AEA48C20076C15D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GachaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gacha.app/Gacha";
+			};
+			name = Debug;
+		};
+		B0C8FFEE1AEA48C20076C15D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GachaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gacha.app/Gacha";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0C8FFC51AEA48C10076C15D /* Build configuration list for PBXProject "Gacha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0C8FFE71AEA48C20076C15D /* Debug */,
+				B0C8FFE81AEA48C20076C15D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0C8FFE91AEA48C20076C15D /* Build configuration list for PBXNativeTarget "Gacha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0C8FFEA1AEA48C20076C15D /* Debug */,
+				B0C8FFEB1AEA48C20076C15D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B0C8FFEC1AEA48C20076C15D /* Build configuration list for PBXNativeTarget "GachaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0C8FFED1AEA48C20076C15D /* Debug */,
+				B0C8FFEE1AEA48C20076C15D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0C8FFC21AEA48C10076C15D /* Project object */;
+}
